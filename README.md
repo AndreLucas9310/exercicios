@@ -1,1 +1,1 @@
-Repositório para armazenar meus exercicios..
+Repositório para armazenar meus exercicios.
