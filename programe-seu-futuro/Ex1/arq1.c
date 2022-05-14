@@ -6,5 +6,5 @@ int main(){
 
 	printf("\n\n***FIM***\n\n");
 	return 0;
-};
+}
  
