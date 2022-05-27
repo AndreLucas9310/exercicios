@@ -12,9 +12,9 @@ int main(){
 	int b;
 	long int c;
 	long long int d;
-	
-	//Para mostrar o valor de um tipo long você precisa usar "%lld" (long long decimal) ou "%lli" (long long integer).
+
 	printf("short int: %d\nint: %d\nlong int: %d\nlong long int: %d", sizeof(a), sizeof(b), sizeof(c), sizeof(d));
+
 	printf("\n#Tecle enter para sair#");
 	//Limpeza de buffer
 	getchar();
