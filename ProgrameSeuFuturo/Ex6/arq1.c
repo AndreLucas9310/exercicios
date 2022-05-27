@@ -12,6 +12,8 @@ int main(){
 	printf("\nletra: %c\n", letra);
 
 	printf("\n\n**Digite qualquer valor para sair**\n\n");
+	//Limpeza de buffer
+	getchar();
 	getchar();
 	
 	return 0;

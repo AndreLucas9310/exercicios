@@ -9,7 +9,11 @@ int main(){
 	//"%d" é para inteiros "%f" é para reais "%c" é para caracteres.
 	scanf("%c", &valor1);
 	printf("valor1: %c\n", valor1);
-	
-	printf("\n\n**FIM**\n\n");
+
+	printf("#Tecle enter para sair#");
+	//Limpeza de buffer
+	getchar();
+	getchar();
+
 	return 0;
 };

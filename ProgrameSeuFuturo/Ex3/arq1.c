@@ -8,8 +8,12 @@ int main(){
 	printf("Digite a sua idade: ");
 	scanf("%d", &valor1); /* O "%d" é pra dizer que o dado a ser recebido é um número inteiro.O "&" na
 	frente de "valor1" quer dizer que ele vai pegar o endereço da variável.*/
-	printf("Sua idade é: %d", valor1);
+	printf("Sua idade é: %d\n", valor1);
 
-	printf("\n\n***FIM***"\n\n);
+	printf("# Tecle enter para finalizar o programa #");
+	//Limpeza de buffer
+	getchar();
+	getchar();
+
 	return 0;
 };

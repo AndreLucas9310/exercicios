@@ -11,7 +11,9 @@ int main(){
 	letra = getc(stdin);
 	printf("letra: %c\n\n", letra);
 	
-	printf("$Digite qualquer valor para sair$\n");
+	printf("$Tecle enter para sair$");
+	//Limpeza de buffer.
+	getchar();
 	getchar();
 	
 	return 0;
